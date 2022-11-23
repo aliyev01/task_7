@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#comment {
+  background: rgb(222, 208, 155);
+  width: 180px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#feedback {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+#btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(105, 105, 246);
+  color: aliceblue;
+}
+#btn:hover{
+  color: rgb(105, 105, 246);
+  background-color: aliceblue;
+}
+
+input {
+  border: none;
+  background: rgb(222, 208, 155);
+  padding: 10px;
+  border-radius: 5px;
+}
